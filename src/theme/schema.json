@@ -1,0 +1,42 @@
+{
+  "data" : {
+    "Theme1" : {
+      "id": "T_001",
+      "name": "Theme1",
+      "colors": {
+        "base": "rgba(50, 30, 0, 0.8)",
+        "text": "#ffffff",
+        "button": {
+          "background": "rgba(50, 30, 0, 0.48)",
+          "active": "rgba(50, 30, 0, 0.28)"
+        },
+        "accept": {
+          "background": "#ff9f0c"
+        },
+        "secondary": {
+          "background": "rgba(50, 30, 0, 0.64)",
+          "active": "rgba(50, 30, 0, 0.44)"
+        }
+      }
+    },
+    "Theme2" : {
+      "id": "T_002",
+      "name": "Theme2",
+      "colors": {
+        "base": "rgba(0, 0, 0, 0.5)",
+        "text": "#000000",
+        "button": {
+          "background": "rgba(0, 0, 0, 0.3)",
+          "active": "rgba(0, 0, 0, 0.1)"
+        },
+        "accept": {
+          "background": "#cc0000"
+        },
+        "secondary": {
+          "background": "rgba(0, 0, 0, 0.4)",
+          "active": "rgba(0, 0, 0, 0.2)"
+        }
+      }
+    }
+  }
+}
