@@ -1,7 +1,9 @@
+import PropTypes from "prop-types"
+
 import { MAX_LENGTH } from '../constants'
 
 export default function CalculatorDisplay (props) {
-  const { value, ...rest } = props
+  const { value } = props
   
   const language = navigator.language || 'en-US'
   let formattedValue = parseFloat(value).toLocaleString(language, {
@@ -19,8 +21,12 @@ export default function CalculatorDisplay (props) {
     formattedValue = `${String(value)[0]}.${String(value).slice(1, MAX_LENGTH-1)}e${String(value).length}`
     
   return (
-    <div {...rest} className="calculator-display">
+    <div className="calculator-display">
       {formattedValue}
     </div>
   )
+}
+
+CalculatorDisplay.propTypes = {
+  value: PropTypes.string,
 }

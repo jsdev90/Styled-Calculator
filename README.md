@@ -3,13 +3,17 @@
 ## Built With
 
 - [React.js](https://reactjs.org/)
-- [Styled-Components](https://styled-components.com/)
+- [styled-components](https://styled-components.com/)
+- [prop-types](https://github.com/facebook/prop-types)
 
 ### styled-components
 A flexible way to style React components with CSS.
 It provides out-of-the-box theming support using a wrapper component called, <ThemeProvider>.
 This component is responsible for providing the theme to all other React components that are wrapped within it.
 We will see this in action in a minute.
+
+### prop-types
+Typechecking
 
 ## Live Demo
 
