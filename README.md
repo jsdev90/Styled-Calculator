@@ -1,5 +1,20 @@
 # Styled Calculator
 
+## Built With
+
+- [React.js](https://reactjs.org/)
+- [Styled-Components](https://styled-components.com/)
+
+### styled-components
+A flexible way to style React components with CSS.
+It provides out-of-the-box theming support using a wrapper component called, <ThemeProvider>.
+This component is responsible for providing the theme to all other React components that are wrapped within it.
+We will see this in action in a minute.
+
+## Live Demo
+
+[Live Demo Link](https://direful-work.surge.sh/)
+
 ## Available Scripts
 
 In the project directory, you can run:
