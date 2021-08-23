@@ -61,7 +61,7 @@ function Calculator() {
   
   const inputDot = useCallback(() => {
     if (!(/\./).test(displayValue)) {
-      setValue(displayValue + '.')
+      setDisplayValue(displayValue + '.')
       setWaitingForOperand(false)
     }
   }, [displayValue])
